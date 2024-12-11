@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+}
+.container {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.buttons{
+    position: relative;
+    margin: 0 auto;
+}
+
+button#start-Recording{
+    margin-right: 5px;
+    background-color: lightskyblue;
+    font-size: 50px;
+    border: none;
+}
+button#stop-Recording{
+    margin-left: 5px;
+    background-color:orangered;
+    border: none;
+    font-size: 50px;
+}
+button{
+}
+.buttons h1{
+    text-align: center;
+}
+.audio{
+    text-align: center;
+    justify-content: center;
+}
+button#start-Recording :hover{
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
